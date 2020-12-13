@@ -257,11 +257,11 @@ release\main.obj: main.cpp D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QApplicat
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qinputmethod.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\qlocale.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\qvariant.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\QColor \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QTextEdit \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qtextedit.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qframe.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QPushButton \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qicon.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qkeysequence.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qwidget.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qpalette.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qbrush.h \
@@ -269,7 +269,6 @@ release\main.obj: main.cpp D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QApplicat
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qfontmetrics.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qfontinfo.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qsizepolicy.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qkeysequence.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qevent.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\qiodevice.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\qpointer.h \
@@ -286,11 +285,11 @@ release\main.obj: main.cpp D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QApplicat
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\QSize \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtCore\QSizeF \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\QTransform \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qtextdocument.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qtextoption.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qtextcursor.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qtextformat.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qpen.h
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QVBoxLayout \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qlayout.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qgridlayout.h
 
 ####### Install
 

@@ -176,6 +176,7 @@ Makefile: QtSandbox.pro D:\Qt.6\6.0.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf 
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\qt_config.prf \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\exclusive_builds.prf \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\common\msvc-version.conf \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\toolchain.prf \
@@ -202,7 +203,6 @@ Makefile: QtSandbox.pro D:\Qt.6\6.0.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf 
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\lex.prf \
 		QtSandbox.pro \
 		D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPoint.prl \
-		.qmake.stash \
 		D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\build_pass.prf \
 		D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPointd.prl
 	$(QMAKE) -o Makefile QtSandbox.pro
@@ -298,6 +298,7 @@ D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\qt_functions.prf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\qt_config.prf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\spec_post.prf:
+.qmake.stash:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\exclusive_builds.prf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\common\msvc-version.conf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\toolchain.prf:
@@ -324,7 +325,6 @@ D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\yacc.prf:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\lex.prf:
 QtSandbox.pro:
 D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPoint.prl:
-.qmake.stash:
 D:\Qt.6\6.0.0\msvc2019_64\mkspecs\features\build_pass.prf:
 D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPointd.prl:
 qmake: FORCE
