@@ -19,7 +19,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -ID:\Qt.6\6.0.0\msvc2019_64\include -ID:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets -ID:\Qt.6\6.0.0\msvc2019_64\include\QtGui -ID:\Qt.6\6.0.0\msvc2019_64\include\QtCore -Irelease -ID:\Qt.6\6.0.0\msvc2019_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /OPT:REF /OPT:ICF /INCREMENTAL:NO /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"
-LIBS          = D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Widgets.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Gui.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Core.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPoint.lib shell32.lib  
+LIBS          = /LIBPATH:E:\ccp_vhdd_main\workspace\WindowsSystemTools\src\QtSandbox\Externals E:\ccp_vhdd_main\workspace\WindowsSystemTools\src\QtSandbox\Externals\StaticLibrary2.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Widgets.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Gui.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6Core.lib D:\Qt.6\6.0.0\msvc2019_64\lib\Qt6EntryPoint.lib shell32.lib  
 QMAKE         = D:\Qt.6\6.0.0\msvc2019_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
@@ -289,7 +289,12 @@ release\main.obj: main.cpp D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QApplicat
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qboxlayout.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qlayout.h \
 		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qgridlayout.h
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\QLabel \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qlabel.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtWidgets\qframe.h \
+		D:\Qt.6\6.0.0\msvc2019_64\include\QtGui\qpicture.h \
+		Externals\MyClass.h
 
 ####### Install
 
