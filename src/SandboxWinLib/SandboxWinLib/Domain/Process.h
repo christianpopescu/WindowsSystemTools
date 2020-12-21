@@ -4,5 +4,6 @@ class Process
 {
 public:
 	std::string Name;
+	Process();
 };
 
